@@ -13,10 +13,11 @@ public class Ex03_Set {
 		System.out.println("set : "+set);
 		
 		Iterator it = set.iterator();
-		
+		// String s = (String)it.next();  <- 문자열로 처리해야 할때
 		while(it.hasNext()) {
 			System.out.println(it.next());
 		}
+		
 		
 		
 		

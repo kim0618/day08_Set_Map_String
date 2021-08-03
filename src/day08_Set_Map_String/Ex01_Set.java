@@ -20,6 +20,7 @@ public class Ex01_Set {
 		hs.add("¼ø´ë");
 		hs.add("±è¹ä");
 		System.out.println("hs : "+hs);
+		
 		hs.remove("±è¹ä");
 		System.out.println("hs : "+hs);
 		
